@@ -1,0 +1,31 @@
+# Core backend
+flask==3.1.1
+flask-cors==6.0.1
+
+# Text analysis
+textblob==0.19.0
+langdetect==1.0.9
+nltk==3.9.1
+spacy==3.8.7
+sentence-transformers==4.1.0
+transformers==4.53.1
+torch==2.6.0
+torchvision==0.16.0  # or remove if not used
+
+# Topic modeling
+bertopic==0.17.3
+
+# Compatibility-checked dependencies
+numpy==2.0.2
+scipy==1.15.3
+scikit-learn==1.6.1
+pandas==2.2.2
+
+# Hugging Face
+huggingface_hub==0.33.2
+
+# Utilities
+regex==2023.12.25
+requests==2.31.0
+
+
